@@ -11,6 +11,7 @@ import org.junit.runner.RunWith;
         glue = "com.automation.steps",
         tags = "@WIP",
         dryRun = true
+        plugin={"html:target/resources.html","json:target/cucumber.json"}
 )
 public class TestRunner {
 
